@@ -18,14 +18,15 @@ Note!: Do not face this to internet ! There is no robust protection and its prim
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1744566684</DateInstalled>
+  <DateInstalled>1744567192</DateInstalled>
   <DonateText>If you like it, considet donating :) </DonateText>
   <DonateLink>https://ko-fi.com/vladoportos</DonateLink>
   <Requires/>
   <Config Name="Database" Target="/app/data/database" Default="" Mode="rw" Description="SQLite DB is stored here" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/skillgoblin/</Config>
-  <Config Name="Tutorials" Target="/app/data/content" Default="/mnt/user/tutorials/" Mode="rw" Description="Path to your tutorials folder" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Tutorialy/</Config>
-  <Config Name="Host" Target="HOST" Default="0.0.0.0" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0.0.0.0</Config>
-  <Config Name="Environment" Target="NODE_ENV" Default="production" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">production</Config>
-  <Config Name="Port" Target="PORT" Default="3000" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="Tutorials" Target="/app/data/content" Default="/mnt/user/tutorials/" Mode="rw" Description="Path to your tutorials folder" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/tutorials/</Config>
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="PORT" Target="PORT" Default="3000" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">3000</Config>
+  <Config Name="Host" Target="HOST" Default="0.0.0.0" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">0.0.0.0</Config>
+  <Config Name="Environment" Target="NODE_ENV" Default="production" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">production</Config>
   <TailscaleStateDir/>
 </Container>
