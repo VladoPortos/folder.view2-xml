@@ -14,7 +14,7 @@ Note!: Do not face this to internet ! There is no robust protection and its prim
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/VladoPortos/folder.view/main/img/SkillGoblin.png</Icon>
+  <Icon>https://raw.githubusercontent.com/VladoPortos/vladoportos-unraid-xml/main/img/SkillGoblin.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -22,8 +22,8 @@ Note!: Do not face this to internet ! There is no robust protection and its prim
   <DonateText>If you like it, considet donating :) </DonateText>
   <DonateLink>https://ko-fi.com/vladoportos</DonateLink>
   <Requires/>
-  <Config Name="Database" Target="/app/data/database" Default="" Mode="rw" Description="SQLite DB is stored here" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/skillgoblin/</Config>
-  <Config Name="Tutorials" Target="/app/data/content" Default="/mnt/user/tutorials/" Mode="rw" Description="Path to your tutorials folder" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/tutorials/</Config>
+  <Config Name="Database" Target="/app/data/database" Default="/mnt/user/appdata/skillgoblin/" Mode="rw" Description="SQLite DB is stored here" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Tutorials" Target="/app/data/content" Default="/mnt/user/tutorials/" Mode="rw" Description="Path to your tutorials folder" Type="Path" Display="always" Required="false" Mask="false"></Config>
   <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
   <Config Name="PORT" Target="PORT" Default="3000" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">3000</Config>
   <Config Name="Host" Target="HOST" Default="0.0.0.0" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">0.0.0.0</Config>
