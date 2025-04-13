@@ -19,8 +19,8 @@ Note!: Do not face this to internet ! There is no robust protection and its prim
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1744566684</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>If you like it, considet donating :) </DonateText>
+  <DonateLink>https://ko-fi.com/vladoportos</DonateLink>
   <Requires/>
   <Config Name="Database" Target="/app/data/database" Default="" Mode="rw" Description="SQLite DB is stored here" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/skillgoblin/</Config>
   <Config Name="Tutorials" Target="/app/data/content" Default="/mnt/user/tutorials/" Mode="rw" Description="Path to your tutorials folder" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Tutorialy/</Config>
