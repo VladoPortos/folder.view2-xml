@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/VladoPortos/vladoportos-unraid-xml/master/img/avatar.png</Icon>
+  <Profile>
+    Trying my best to maintain Folder.View2 and SkillGoblin.
+  </Profile>
+  <DonateLink>https://ko-fi.com/vladoportos</DonateLink>
+  <DonateText>If you like my work please consider Donating.</DonateText>
+  <WebPage>https://skillgoblin.com</WebPage>
+</Maintainer>
