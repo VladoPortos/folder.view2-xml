@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>SkillGoblin</Name>
+  <Repository>vladoportos/skillgoblin:latest</Repository>
+  <Registry>https://hub.docker.com/r/vladoportos/skillgoblin</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/189185-support-skillgobling/</Support>
+  <Project>https://skillgoblin.com</Project>
+  <Overview>A streamlined, self-hosted learning platform focused on simplicity and ease of maintenance.&#xD;
+Note!: Do not face this to internet ! There is no robust protection and its primary intended for local network</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/VladoPortos/folder.view/main/img/SkillGoblin.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1744566684</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Database" Target="/app/data/database" Default="" Mode="rw" Description="SQLite DB is stored here" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/skillgoblin/</Config>
+  <Config Name="Tutorials" Target="/app/data/content" Default="/mnt/user/tutorials/" Mode="rw" Description="Path to your tutorials folder" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Tutorialy/</Config>
+  <Config Name="Host" Target="HOST" Default="0.0.0.0" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0.0.0.0</Config>
+  <Config Name="Environment" Target="NODE_ENV" Default="production" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">production</Config>
+  <Config Name="Port" Target="PORT" Default="3000" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">3000</Config>
+  <TailscaleStateDir/>
+</Container>
