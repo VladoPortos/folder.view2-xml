@@ -28,5 +28,6 @@ Note!: Do not face this to internet ! There is no robust protection and its prim
   <Config Name="PORT" Target="PORT" Default="3000" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">3000</Config>
   <Config Name="Host" Target="HOST" Default="0.0.0.0" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">0.0.0.0</Config>
   <Config Name="Environment" Target="NODE_ENV" Default="production" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">production</Config>
+  <Config Name="PollIntervall" Target="CHOKIDAR_POLLING_INTERVAL" Default="60000" Mode="" Description="How often to look for changes in ms" Type="Variable" Display="advanced" Required="false" Mask="false">60000</Config>
   <TailscaleStateDir/>
 </Container>
