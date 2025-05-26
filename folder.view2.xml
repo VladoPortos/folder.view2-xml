@@ -4,12 +4,13 @@
 <PluginAuthor>VladoPortos and scolcipitato</PluginAuthor>
 <Beta>False</Beta>
 <Category>Tools:</Category>
-<Date>2025-03-13</Date>
+<Date>2025-05-26</Date>
 <Name>FolderView2</Name>
 <Description>
 Note!: Before installation, backup your current configuration in FolderView settings (JSON files from VMs and Docker) and remove the old FolderView plugin.
 FolderView2 lets you create folders for grouping Dockers and VMs together to help with organization. Especially useful if you're using docker-compose.
 Getting Started: A new button named "Add Folder" will appear at the bottom of the docker and VM tab(s) next to "Add Container", depending on whether they are enabled in Settings or not.
+Known issue: Custom themes might not yet work correctly with advanced view
 </Description>
 <Support>https://forums.unraid.net/topic/189167-plugin-folderview2/</Support>
 <Icon>https://raw.githubusercontent.com/VladoPortos/folder.view/main/img/folder-icon.png</Icon>
